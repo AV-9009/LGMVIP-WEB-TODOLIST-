@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+#topic {
+    font-size: 50px;
+    text-align: center;
+    color: #8f0c0c;
+    margin: 10px auto;
+}
+
+.box {
+    position: relative;
+    background-color: #030e48;
+    border-radius: 5px;
+    padding: 10px;
+    height: fit-content;
+    min-height: 500px;
+    width: 644px;
+    margin: 0px auto
+}
+
+input {
+    width: 479px;
+    height: 36px;
+    padding: 7px 10px;
+    margin-right: 11px;
+    font-size: 25px;
+    outline: none;
+    border: 2px solid #0d0c4e;
+    border-radius: 5px;
+}
+
+input ::placeholder {
+    color: grey;
+}
+
+#btn {
+    font-size: 23px;
+    padding: 11px 14px;
+    background-color: hsl(150deg 100% 42%);
+    border: 2px solid #0d0c4e;
+    border-radius: 5px;
+    top: 10px;
+    color: #0d0c4e;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+.todos {
+    padding: 2px;
+}
+
+.todos p {
+    background-color: #ff7a3b;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 23px;
+    border-radius: 5px;
+    width: 617px;
+    word-break: break-word;
+    color: #070322;
+}
+
+.del {
+    right: 7px;
+    background-color: #8f0c0c;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 6px;
+    bottom: 14px;
+    border: 0px;
+    border-radius: 50%;
+    color: cornsilk;
+    cursor: pointer;
+}
